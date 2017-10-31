@@ -8,15 +8,53 @@
 
 import UIKit
 import CoreData
+import CoreLocation
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    /* var locationManager: CLLocationManager = CLLocationManager() */
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        /* locationManager.requestAlwaysAuthorization()
+        locationManager.activityType = .otherNavigation
+        locationManager.allowsBackgroundLocationUpdates = true
+        locationManager.delegate = self as? CLLocationManagerDelegate
+        // locationManager.distanceFilter = 100.0
+        
+        // セキュリティ認証のステータスを取得.
+        let status = CLLocationManager.authorizationStatus()
+        print("authorizationStatus:\(status.rawValue)")
+        
+        // 位置情報起因で起動した場合
+        if launchOptions?[UIApplicationLaunchOptionsKey.location] != nil {
+            locationManager.startMonitoringSignificantLocationChanges()
+        } */
+        
+        if #available(iOS 10.0, *) {
+            let center = UNUserNotificationCenter.current()
+            
+            center.requestAuthorization(options: [.badge,.sound,.alert], completionHandler: {(granted,error) in
+                if error != nil {
+                    return
+                }
+                
+                if granted {
+                    print("通知許可")
+                } else {
+                    print("通知拒否")
+                }
+                
+            })
+        }
+        
+        
+        
         return true
     }
 
@@ -28,6 +66,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        
+        /* if CLLocationManager.significantLocationChangeMonitoringAvailable() {
+            locationManager.startMonitoringSignificantLocationChanges()
+        } */
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -88,6 +130,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+    
+    // 位置情報取得
+    /* func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
+    {
+        print(locations)
+    } */
 }
-

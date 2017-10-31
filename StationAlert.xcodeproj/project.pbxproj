@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5CAAFD1F47318A007BBDC3 /* RailInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5CAAFB1F47318A007BBDC3 /* RailInfo+CoreDataClass.swift */; };
+		5B5CAAFE1F47318A007BBDC3 /* RailInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5CAAFC1F47318A007BBDC3 /* RailInfo+CoreDataProperties.swift */; };
+		5B621BD61F31E93700944F78 /* StationInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621BD41F31E93700944F78 /* StationInfo+CoreDataClass.swift */; };
+		5B621BD71F31E93700944F78 /* StationInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B621BD51F31E93700944F78 /* StationInfo+CoreDataProperties.swift */; };
+		5B621BDA1F334A6000944F78 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B621BD91F334A6000944F78 /* MapKit.framework */; };
+		5B621BF01F39B36C00944F78 /* N02-16_RailroadSection_Meitetsu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B621BEF1F39B36C00944F78 /* N02-16_RailroadSection_Meitetsu.json */; };
 		5B7A88231F3053DE00831458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A88221F3053DE00831458 /* AppDelegate.swift */; };
 		5B7A88251F3053DE00831458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A88241F3053DE00831458 /* ViewController.swift */; };
 		5B7A88281F3053DE00831458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7A88261F3053DE00831458 /* Main.storyboard */; };
@@ -15,6 +21,7 @@
 		5B7A88301F3053DE00831458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7A882E1F3053DE00831458 /* LaunchScreen.storyboard */; };
 		5B7A883B1F3053DF00831458 /* StationAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A883A1F3053DF00831458 /* StationAlertTests.swift */; };
 		5B7A88461F3053DF00831458 /* StationAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A88451F3053DF00831458 /* StationAlertUITests.swift */; };
+		5B7A886C1F30CD1100831458 /* N02-16_Station_Meitetsu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B7A886B1F30CD1100831458 /* N02-16_Station_Meitetsu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B5CAAFB1F47318A007BBDC3 /* RailInfo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RailInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5B5CAAFC1F47318A007BBDC3 /* RailInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RailInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5B621BD41F31E93700944F78 /* StationInfo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StationInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5B621BD51F31E93700944F78 /* StationInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StationInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5B621BD91F334A6000944F78 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5B621BEF1F39B36C00944F78 /* N02-16_RailroadSection_Meitetsu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "N02-16_RailroadSection_Meitetsu.json"; sourceTree = "<group>"; };
 		5B7A881F1F3053DE00831458 /* StationAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StationAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7A88221F3053DE00831458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B7A88241F3053DE00831458 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		5B7A88411F3053DF00831458 /* StationAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StationAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7A88451F3053DF00831458 /* StationAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationAlertUITests.swift; sourceTree = "<group>"; };
 		5B7A88471F3053DF00831458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7A886B1F30CD1100831458 /* N02-16_Station_Meitetsu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "N02-16_Station_Meitetsu.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B621BDA1F334A6000944F78 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B621BD81F334A6000944F78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B621BD91F334A6000944F78 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B7A88161F3053DD00831458 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,7 @@
 				5B7A88391F3053DF00831458 /* StationAlertTests */,
 				5B7A88441F3053DF00831458 /* StationAlertUITests */,
 				5B7A88201F3053DE00831458 /* Products */,
+				5B621BD81F334A6000944F78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +123,12 @@
 		5B7A88211F3053DE00831458 /* StationAlert */ = {
 			isa = PBXGroup;
 			children = (
+				5B621BEF1F39B36C00944F78 /* N02-16_RailroadSection_Meitetsu.json */,
+				5B621BD41F31E93700944F78 /* StationInfo+CoreDataClass.swift */,
+				5B621BD51F31E93700944F78 /* StationInfo+CoreDataProperties.swift */,
+				5B5CAAFB1F47318A007BBDC3 /* RailInfo+CoreDataClass.swift */,
+				5B5CAAFC1F47318A007BBDC3 /* RailInfo+CoreDataProperties.swift */,
+				5B7A886B1F30CD1100831458 /* N02-16_Station_Meitetsu.json */,
 				5B7A88221F3053DE00831458 /* AppDelegate.swift */,
 				5B7A88241F3053DE00831458 /* ViewController.swift */,
 				5B7A88261F3053DE00831458 /* Main.storyboard */,
@@ -198,6 +228,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = UAEL4H37J9;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					5B7A88351F3053DF00831458 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -238,9 +273,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7A886C1F30CD1100831458 /* N02-16_Station_Meitetsu.json in Resources */,
 				5B7A88301F3053DE00831458 /* LaunchScreen.storyboard in Resources */,
 				5B7A882D1F3053DE00831458 /* Assets.xcassets in Resources */,
 				5B7A88281F3053DE00831458 /* Main.storyboard in Resources */,
+				5B621BF01F39B36C00944F78 /* N02-16_RailroadSection_Meitetsu.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5CAAFE1F47318A007BBDC3 /* RailInfo+CoreDataProperties.swift in Sources */,
+				5B621BD71F31E93700944F78 /* StationInfo+CoreDataProperties.swift in Sources */,
+				5B621BD61F31E93700944F78 /* StationInfo+CoreDataClass.swift in Sources */,
 				5B7A882B1F3053DE00831458 /* StationAlert.xcdatamodeld in Sources */,
 				5B7A88251F3053DE00831458 /* ViewController.swift in Sources */,
 				5B7A88231F3053DE00831458 /* AppDelegate.swift in Sources */,
+				5B5CAAFD1F47318A007BBDC3 /* RailInfo+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +462,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UAEL4H37J9;
 				INFOPLIST_FILE = StationAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.cartoonharu4.StationAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +476,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UAEL4H37J9;
 				INFOPLIST_FILE = StationAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.cartoonharu4.StationAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +561,7 @@
 				5B7A884C1F3053DF00831458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B7A884D1F3053DF00831458 /* Build configuration list for PBXNativeTarget "StationAlertTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +570,7 @@
 				5B7A884F1F3053DF00831458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B7A88501F3053DF00831458 /* Build configuration list for PBXNativeTarget "StationAlertUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +579,7 @@
 				5B7A88521F3053DF00831458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
